@@ -3,10 +3,7 @@
 
 
 pipeline {
-	agent any
-   # agent {
-    #    label 'general'
-  #  }
+    agent any
 
 
     triggers {
