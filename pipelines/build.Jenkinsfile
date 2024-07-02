@@ -3,9 +3,11 @@
 
 
 pipeline {
-    agent {
-        label 'general'
-    }
+	agent any
+   # agent {
+    #    label 'general'
+  #  }
+
 
     triggers {
         githubPush()
